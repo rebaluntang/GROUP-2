@@ -1,0 +1,133 @@
+body {
+  font-family: 'Josefin Sans',sans-serif;
+  background-color: #38d39f;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 32px;
+}
+
+header {
+  background-color: #2a80ad;
+  height: 150px;
+  padding: 4px;
+}
+
+header h2 {
+  text-transform: uppercase;
+  font-family: 'Niagara Solid', sans-serif;
+  margin-left: 15px;
+  margin-top: 50px;
+  font-size: 150px;
+  color: orange;
+  line-height: 50px;
+}
+
+.main_menu {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  line-height: 32px;
+  background-color: #818181;
+}
+
+ul.main_menu {
+  margin-top: 0;
+}
+
+.main_menu li {
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+}
+
+.main_menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.main_menu a:hover {
+  color: #59d5d8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin-top: 10%;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.wrap h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+.team .team_member {
+  background: #fff;
+  margin: 20px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  color: #8e8b8b;
+  position: relative;
+}
+
+.team .team_member h3 {
+  color: #2a80ad;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.team .team_member .team_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+}
+
+.team .team_member .team_img img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+}
+

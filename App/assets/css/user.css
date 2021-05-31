@@ -1,0 +1,270 @@
+body{
+    font-family: 'Josefin Sans',sans-serif;
+    background-color: #38d39f;
+}
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+}
+header{
+    background-color: #2a80ad;
+    height: 150px;
+    padding: 4px; 
+}
+header h2{
+    text-transform: uppercase;
+    font-family: 'Niagara Solid', sans-serif;
+    margin-left: 15px;
+    margin-top: 50px;
+    font-size: 150px;
+    color: orange;
+    line-height: 50px;
+}
+.main_menu{
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: #818181;
+}
+ul.main_menu{
+    margin-top: 0;
+}
+.main_menu li{
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+}
+.main_menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    font-variant:small-caps;
+    font-weight: bold;
+}
+.main_menu a:hover {
+    color: #59d5d8;
+}
+
+.table-box{
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    background: #818181;
+    box-shadow:0 10px rgba(0, 0, 0, 0.5);
+}
+table{
+    width: 100%;
+    position: relative;
+}
+table, th,td{
+    border: 1px solid #59d5d8;
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    position: sticky;
+    top:0;
+    background: #2a80ad;
+    color: #fff;
+}
+tr th:nth-child(1){
+    width: 300px;
+    background: #2a80ad;
+}
+tr td:nth-child(1){
+    background: #415869;
+    color: #fff;
+}
+tr td:nth-child(3){
+    background: #415869;
+    color: #fff;
+}
+.box{
+    width: 1500px;
+    padding: 8px;
+}
+.field{
+    width: 500px;
+    padding: 8px;
+}
+.box1{
+    height: 50px;
+    width: 1500px;
+}
+img{
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding: 0 10px 0 0;
+}
+
+
+form.a {
+    margin: auto;
+    text-align: center;
+    
+  }
+  select[id=region] {
+    width: 350px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+  }
+  select[id=healthinstitutions] {
+    width: 350px;;
+    padding: 12px 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+  }
+  input[id=date] {
+    width: 350px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 992px)
+  #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      transition: padding-top .3s,padding-bottom .3s;
+      border: none;
+      background-color: transparent;
+  }
+  #mainNav {
+      background-color: #212529;
+  }
+  .fixed-bottom, .fixed-top {
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+  }
+  .fixed-top {
+      top: 0;
+  }
+  .bg-dark {
+      background-color: #343a40!important;
+  }
+  @media (min-width: 992px)
+  .navbar-expand-lg {
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+  }
+  .navbar, .navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+  }
+  .navbar {
+      position: relative;
+      padding: .5rem 1rem;
+  }
+  article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+      display: block;
+  }
+  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+      display: block;
+  }
+  *, *:before, *:after {
+      box-sizing: inherit;
+  }
+  *, :after, :before {
+      box-sizing: border-box;
+  }
+  user agent stylesheet
+  nav {
+      display: block;
+  }
+  body {
+      font-family: 'Josefin Sans',sans-serif;
+      background-color: #38d39f;
+  }
+  html, body {
+      font-family: Verdana,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+  }
+  body {
+      overflow-x: hidden;
+      font-family: Roboto Slab,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  body {
+      margin: 0;
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      background-color: #fff;
+  }
+  :root {
+      --blue: #007bff;
+      --indigo: #6610f2;
+      --purple: #6f42c1;
+      --pink: #e83e8c;
+      --red: #dc3545;
+      --orange: #fd7e14;
+      --yellow: #ffc107;
+      --green: #28a745;
+      --teal: #20c997;
+      --cyan: #17a2b8;
+      --white: #fff;
+      --gray: #868e96;
+      --gray-dark: #343a40;
+      --primary: #fed136;
+      --secondary: #868e96;
+      --success: #28a745;
+      --info: #17a2b8;
+      --warning: #ffc107;
+      --danger: #dc3545;
+      --light: #f8f9fa;
+      --dark: #343a40;
+      --breakpoint-xs: 0;
+      --breakpoint-sm: 576px;
+      --breakpoint-md: 768px;
+      --breakpoint-lg: 992px;
+      --breakpoint-xl: 1200px;
+      --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  }
+  html {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+  }
+  html {
+      font-family: sans-serif;
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  *, *:before, *:after {
+      box-sizing: inherit;
+  }
+  *, :after, :before {
+      box-sizing: border-box;
+  }
+  *, *:before, *:after {
+      box-sizing: inherit;
+  }
+  *, :after, :before {
+      box-sizing: border-box;
+  }
+  ::selection {
+      background: #fed136;
+      text-shadow: none;
+}
+
